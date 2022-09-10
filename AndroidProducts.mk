@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021 The cherishOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/lineage_lava.mk
+   $(LOCAL_DIR)/cherish_lava.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_lava-user \
-    lineage_lava-userdebug \
-    lineage_lava-eng
+    cherish_lava-user \
+    cherish_lava-userdebug \
+    cherish_lava-eng
